@@ -7,13 +7,15 @@
   Copyright (c) 2005-2014 Jason Bittel <jason.bittel@gmail.com>
   Licensed under GPLv2. For further information, see COPYING file.
 
+  Additions from Jon Abend <jabend@cars.com>
+
 */
 
 #ifndef _HAVE_CONFIG_H
 #define _HAVE_CONFIG_H
 
 #define PROG_NAME "httpry"
-#define PROG_VER "0.1.8"
+#define PROG_VER "0.1.8.1"
 
 /* Default packet capture filter; must be a standard libpcap style filter
    *** Can be overridden */
@@ -21,7 +23,7 @@
 
 /* Default output format string; see doc/format-string for more information
    *** Can be overridden with -f */
-#define DEFAULT_FORMAT "timestamp,source-ip,dest-ip,direction,method,host,request-uri,http-version,status-code,reason-phrase"
+#define DEFAULT_FORMAT "timestamp,source-ip,source-port,dest-ip,dest-port,direction,method,host,request-uri,http-version,status-code,reason-phrase"
 
 /* Default format string for rate statistics mode; should never change! */
 #define RATE_FORMAT "host"
