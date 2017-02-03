@@ -10,9 +10,10 @@
 
 
                   HTTP logging and information retrieval tool
-                                 version 0.1.8
+                                 version 0.1.8.1
 
          Copyright (c) 2005-2014 Jason Bittel <jason.bittel@gmail.com>
+                  Additions by Jon Abend <jabend@cars.com>
 
                 For further information about the program, see:
                    http://dumpsterventures.com/jason/httpry
